@@ -127,10 +127,11 @@ section{
                         color: var(--primary-color);
                     }
 
-                    span{
+                    .showPass{
                         color: var(--secondary-color);
-                        cursor: pointer;
                         font-size: 12px;
+                        border-style: none;
+                        background: none;
                     }
                 }
             }
@@ -139,6 +140,8 @@ section{
                 color: var(--secondary-color);
                 font-weight: 500;
                 font-size: 13px;
+                background: none;
+                border-style: none;
             }
 
             .submitBTN{

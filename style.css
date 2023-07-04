@@ -115,15 +115,18 @@ section .container .input-box .input-container .input-wrapper input {
   font-weight: 500;
   color: var(--primary-color);
 }
-section .container .input-box .input-container .input-wrapper span {
+section .container .input-box .input-container .input-wrapper .showPass {
   color: var(--secondary-color);
-  cursor: pointer;
   font-size: 12px;
+  border-style: none;
+  background: none;
 }
 section .container .input-box #forgotPass {
   color: var(--secondary-color);
   font-weight: 500;
   font-size: 13px;
+  background: none;
+  border-style: none;
 }
 section .container .input-box .submitBTN {
   width: 100%;
