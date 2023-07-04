@@ -39,7 +39,7 @@ section .container nav {
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
-  border: 1px solid white;
+  border: 2px solid white;
   margin-bottom: 25px;
   border-radius: 10px;
   padding: 6px;
@@ -82,7 +82,7 @@ section .container .input-box {
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 30px;
   border-radius: 10px;
 }
