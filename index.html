@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Challenge</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <!-- navbar -->
+            <nav>
+                <ul>
+                    <li><a href=""><p class="logo">Logo</p></a></li>
+                    <li><a href=""><p class="state">SIGN IN</p></a></li>
+                </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" height="38.5" viewBox="0 -960 960 960" width="38.5">
+                    <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                </svg>
+            </nav>
+            <!-- input userinfo -->
+            <div class="input-box">
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <div class="input-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13.25"
+                            viewBox="0 0 13 13.25">
+                            <defs>
+                                <clipPath id="clip-path">
+                                    <rect id="Rectangle_40" data-name="Rectangle 40" width="13" height="8.849" transform="translate(1305 83)"
+                                        fill="#fff" />
+                                </clipPath>
+                            </defs>
+                            <g id="Component_5_2" data-name="Component_52" transform="translate(0)">
+                                <g id="Rectangle_39" data-name="Rectangle 39" transform="translate(2.623)" fill="none" stroke="#676767"
+                                    stroke-width="1.5">
+                                    <rect width="8" height="8" rx="4" stroke="none" />
+                                    <rect x="0.75" y="0.75" width="6.5" height="6.5" rx="3.25" fill="none" />
+                                </g>
+                                <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-1305 -78.599)" clip-path="url(#clip-path)">
+                                    <g id="Rectangle_38" data-name="Rectangle 38" transform="translate(1306.058 85.212)" fill="none"
+                                        stroke="#676767" stroke-width="1.5">
+                                        <rect width="10.977" height="14.011" rx="5.488" stroke="none" />
+                                        <rect x="0.75" y="0.75" width="9.477" height="12.511" rx="4.738" fill="none" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <input type="text" id="username" placeholder="Type your username">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <div class="input-wrapper">
+                        <svg id="Component_22_1" data-name="Component_221" xmlns="http://www.w3.org/2000/svg" width="13" height="10"
+                            viewBox="0 0 13 10">
+                            <g id="Rectangle_105" data-name="Rectangle 105" fill="none" stroke="#676767" stroke-width="1.25">
+                                <rect width="13" height="10" rx="2" stroke="none" />
+                                <rect x="0.625" y="0.625" width="11.75" height="8.75" rx="1.375" fill="none" />
+                            </g>
+                            <line id="Line_49" data-name="Line 49" x2="5" y2="4" transform="translate(1.5 1.5)" fill="none" stroke="#676767"
+                                stroke-linecap="round" stroke-width="1.25" />
+                            <line id="Line_50" data-name="Line 50" x1="5" y2="4" transform="translate(6.5 1.5)" fill="none" stroke="#676767"
+                                stroke-linecap="round" stroke-width="1.25" />
+                        </svg>
+                        <input type="email" id="email" placeholder="Type your email address">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <div class="input-wrapper">
+                        <img src="/passIcon.svg" alt="">
+                        <input type="password" id="password" placeholder="Type your password">
+                        <span id="showPass">show</span>
+                    </div>
+                </div>
+                
+                <!-- forgot password -->
+                <span id="forgotPass">Forgot password?</span>
+                <br>
+                
+                <!-- submit btn -->
+                <button class="submitBTN" onclick="submitForm()">Sign in</button>
+                
+                <!-- other options -->
+                <div class="orOther">
+                    <div class="line"></div>
+                    <span>or</span>
+                    <div class="line"></div>
+                </div>
+
+                <div class="options_Container">
+                    <button onclick="submitFormGoogle()"><img src="/icons8-google.svg">Sign in with Google</button>
+                    <button onclick="submitFormFacebook()"><img src="/icons8-facebook.svg">Sign in with Facebook</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
