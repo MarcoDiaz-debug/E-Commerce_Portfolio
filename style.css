@@ -121,6 +121,7 @@ section .container .input-box .input-container .input-wrapper .showPass {
   font-size: 12px;
   border-style: none;
   background: none;
+  cursor: pointer;
 }
 section .container .input-box span {
   color: var(--primary-color);
@@ -133,6 +134,7 @@ section .container .input-box #haveAccount {
   font-size: 12px;
   background: none;
   border-style: none;
+  cursor: pointer;
 }
 section .container .input-box .submitBTN {
   width: 100%;
