@@ -136,13 +136,27 @@ section{
                 }
             }
 
-            #forgotPass{
+            span{
+                color: var(--primary-color);
+                font-weight: 500;
+                font-size: 12px;
+            }
+
+            #haveAccount{
                 color: var(--secondary-color);
                 font-weight: 500;
-                font-size: 13px;
+                font-size: 12px;
                 background: none;
                 border-style: none;
             }
+
+            // #forgotPass{       //show only in login page //
+            //     color: var(--secondary-color);
+            //     font-weight: 500;
+            //     font-size: 13px;
+            //     background: none;
+            //     border-style: none;
+            // }
 
             .submitBTN{
                 width: 100%;

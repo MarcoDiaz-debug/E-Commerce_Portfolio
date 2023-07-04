@@ -121,10 +121,15 @@ section .container .input-box .input-container .input-wrapper .showPass {
   border-style: none;
   background: none;
 }
-section .container .input-box #forgotPass {
+section .container .input-box span {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 12px;
+}
+section .container .input-box #haveAccount {
   color: var(--secondary-color);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   background: none;
   border-style: none;
 }
